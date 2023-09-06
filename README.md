@@ -19,10 +19,12 @@ The Vercel deployment will guide you through creating a Supabase account and pro
 
 > Check out [the docs for Local Development](https://supabase.com/docs/guides/getting-started/local-development) to also run Supabase locally.
 
+## Running Locally
+
 1. Run `npm i supabase --save-dev` to add the dev dependency.
 1. If on Mac/Linux, run `brew install supabase/tap/supabase` for the global CLI.
 1. If on Windows, run `scoop bucket add supabase https://github.com/supabase/scoop-bucket.git` and `scoop install supabase` for the global CLI.
-1. Run `supabase help` for details on the CLI.
+1. Run `supabase init` and `supabase start` to run locally.
 
 ### Create a Supabase client
 
